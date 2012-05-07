@@ -12,7 +12,7 @@ separate with an empty line
 - list item 1
 - list item 2
 
-1.num
-2.num 2
+1. num 1
+2. num 2
 
 [Ronald on GitHub](https://github.com/ronald-park-kluck)
