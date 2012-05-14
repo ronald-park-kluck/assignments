@@ -30,6 +30,9 @@ __Jules Gabriel Verne__ (February 8, 1828 – March 24, 1905) was a French author 
 
 *	[Wikipedia entry](http://en.wikipedia.org/wiki/Jules_Verne)
 
+##Other books by Jules Verne
 
+1. [A Journey to the Centre of the Earth](http://en.wikipedia.org/wiki/A_Journey_to_the_Center_of_the_Earth)
+2. [Around the World in Eighty Days](http://en.wikipedia.org/wiki/Around_the_World_in_Eighty_Days)
 
 [Ronald on GitHub](https://github.com/ronald-park-kluck)
