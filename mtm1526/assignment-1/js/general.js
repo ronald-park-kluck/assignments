@@ -1,19 +1,20 @@
 //JavaScript Document
 //Letter Looper
 
-var a=('');
+var x=('');
 
 while (!x) {
-	var x = prompt('Please type a letter:');
+	var x = prompt('Type any letter:');
 }
 
 console.log(x);
 
-for (var i=1; i< 10; i++){
-for (var n=1; n< i; n++){
+for (var i=0; i< 11; i++){
+	
+	for (var n=0; n< i; n++){
 
-	document.write(x);
-}
+		document.write(x);
+	}
 
 	document.write('</br>');
 }
