@@ -5,6 +5,33 @@ $num2 = 0;
 $func = '+';
 $answer = 0;
 
+if (isset($_POST['num1'])) {
+  $num1 = $_POST['num1'];
+}
+
+if (isset($_POST['num2'])) {
+  $num2 = $_POST['num2'];
+}
+
+if (isset($_POST['func'])) {
+  $func = $_POST['func'];
+}
+
+switch ($func) {
+  case '-':
+    $answer = $num1 - $num2;
+    break;
+  case '*':
+    $answer = $num1 * $num2;
+    break;
+  case '/':
+    $answer = $num1 / $num2;
+    break;
+  case '+':
+  default:
+    $answer = $num1 + $num2;
+    break;
+}
 
 ?>
 
