@@ -33,6 +33,8 @@ switch ($func) {
     break;
 }
 
+$total = $answer * 1.13;
+
 ?>
 
 
