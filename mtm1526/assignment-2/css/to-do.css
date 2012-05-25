@@ -1,3 +1,29 @@
-@charset "utf-8";
-/* CSS Document */
+html {
+	background-color: #0F9;
+	width: 25em;
+}
+
+body {
+	padding: 1em 2em 0 2em;
+	margin: 2em;
+	width: 10em auto;
+	background-color: #0CF;
+	font-family: Verdana, Geneva, sans-serif;
+	border-radius: 1.25em;
+	border: 2px solid #06C;
+}
+
+
+li {
+	cursor: pointer;
+}
+
+.deleted {
+	color: #09C;
+	text-decoration: line-through;
+}
+
+
+
+
 
