@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	background-color: #06F;
+	margin: 0 auto;
+	padding: 2em;
+	width: 20em;
+}
+
+input {
+	background-color: #09F;
+}
+
+body {
+	border: 2px solid #FFF;
+	padding: 1em;
+	margin: 0;
+	background-color: #09C;
+}
