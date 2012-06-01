@@ -4,17 +4,17 @@ body {
 
 #circle {
 	height: 200px;
-	left: 50%;
-	margin: -110px 0 0 -110px;
+	left: 30%;
+	margin: -100px 0 0 -100px;
 	position: absolute;
 	top: 50%;
 	width: 200px;
 
-	background-color: #bad600;
+	background-color: #09C;
 	border: 10px solid #000;
 	border-radius: 110px;
 
-	font-size: 8em;
+	font-size: 10em;
 	font-weight: bold;
 	line-height: 175px;
 	text-align: center;
