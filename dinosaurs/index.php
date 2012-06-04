@@ -9,7 +9,7 @@ $sql = $db->query('
 ');
 
 // Display the last error created by our database
-var_dump($db->errorInfo());
+//var_dump($db->errorInfo());
 
 $results = $sql->fetchAll();
 
@@ -24,7 +24,11 @@ $results = $sql->fetchAll();
 	<body>
 		
 		<?php foreach ($results as $dino) : ?>
-		<h2><?php echo $dino['dino_name']; ?></h2>
+		<h2>
+			<a href="single.php?id=<?php echo $dino['id']; ?>">
+				<?php echo $dino['dino_name']; ?>
+			</a>
+		</h2>
 		<dl>
 			<dt>Loves meat</dt>
 			<dd><?php echo $dino['loves_meat']; ?></dd>
