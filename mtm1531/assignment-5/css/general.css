@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+margin:150px auto;
+width: 1000px;
+background-color:#CC6 ;
+font-family: Verdana, Geneva, sans-serif;
+
+}
+
+
+a,
+a:link,
+a:visited,
+a:active {
+color: #069 ;
+
+}
+
+a:hover {
+color: #0CF;
+
+
+}
+

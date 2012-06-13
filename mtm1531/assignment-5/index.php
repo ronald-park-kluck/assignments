@@ -3,7 +3,7 @@
 require_once 'includes/db.php';	
 
 $sql = $db->query('
-	SELECT id`, movie_title, release_date, director
+	SELECT id, movie_title, release_date, director
 	FROM movies
 	ORDER BY movie_title ASC
 ');
@@ -18,6 +18,7 @@ $results = $sql->fetchAll();
 	<head>
 		<meta charset="utf-8">
 		<title>Movie Browser</title>
+		<link href="css/general.css" rel="stylesheet">
 	</head>
 	
 	<body>
