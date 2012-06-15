@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+margin: 50px;
+width: 1000px;
+background-color:#CC6 ;
+font-family: Verdana, Geneva, sans-serif;
+
+}
+
+h1 {
+	margin-left: 150px;
+	color: #069 ;
+}
+
+h2 {
+	padding: 0;
+	margin: 0;
+}
+
+.movie {
+	border: 2px solid #006;
+	margin: 0 0 1em 5em;
+	padding: 1em;
+	width: 50%;
+	background-color: #0FC;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+	color: #069 ;
+}
+
+a:hover {
+	color: #0CF;
+}
+
+dt {
+	padding: 0.5em;
+	text-decoration: underline;
+}
