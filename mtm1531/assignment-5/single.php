@@ -34,8 +34,10 @@ $results = $sql->fetch();
 				<dd><?php echo $results['director'];?></dd>
 			</dl>
 			
+			<a href="edit.php?id=<?php echo $id; ?>">Edit</a>
 			<a href="delete.php?id=<?php echo $id;?>">Delete this movie</a>
 		</div>
+		
 		
 		<p><a href="index.php">Back to list</a></p>
 	</body>

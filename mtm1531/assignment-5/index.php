@@ -13,7 +13,8 @@ $sql = $db->query('
 
 $results = $sql->fetchAll();
 
-?><!DOCTYPE HTML>
+?>
+<!DOCTYPE HTML>
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -40,5 +41,8 @@ $results = $sql->fetchAll();
 		</div>
 		<?php endforeach; ?>
 		
+		<div>
+			<a href="add.php">Add a Movie</a>
+		</div>
 	</body>
 </html>
