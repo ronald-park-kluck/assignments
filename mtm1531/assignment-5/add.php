@@ -46,8 +46,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <!DOCTYPE HTML>
 <html>
 	<head>
-	<meta charset="utf-8">
-	<title>Add a new Movie Title</title>
+		<meta charset="utf-8">
+		<title>Add a new Movie Title</title>
+		<link href="css/general.css" rel="stylesheet">
 	</head>
 	
 	<body>
@@ -55,37 +56,38 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		<h1>Add A New Movie</h1>
 		
 		<form method="post" action="add.php">
-			
-			<div>
-				<label for="movie_title">
-					Movie Title:
-					<?php if (isset($errors['movie_title'])) : ?>
-					<strong class="error">Is required</strong>
-					<?php endif; ?>
-				</label>
-				<input id="movie_title" name="movie_title" required value="<?php echo $movie_title; ?>">
+			<div class="movie">
+				<div>
+					<label for="movie_title">
+						Movie Title:
+						<?php if (isset($errors['movie_title'])) : ?>
+						<strong class="error">Is required</strong>
+						<?php endif; ?>
+					</label>
+					<input id="movie_title" name="movie_title" required value="<?php echo $movie_title; ?>">
+				</div>
+				
+				<div>
+					<label for="release_date">
+						Release Date:
+						<?php if (isset($errors['release_date'])) : ?>
+						<strong class="error">Is required</strong>
+						<?php endif; ?>
+					</label>
+					<input id="release_date" name="release_date" required value="<?php echo $release_date; ?>">
+				</div>
+				
+				<div>
+					<label for="director">
+						Director:
+						<?php if (isset($errors['director'])) : ?>
+						<strong class="error">Is required</strong>
+						<?php endif; ?>
+					</label>
+					<input id="director" name="director" required value="<?php echo $director; ?>">
+				</div>
+				<button type="submit">Add</button>
 			</div>
-			
-			<div>
-				<label for="release_date">
-					Release Date:
-					<?php if (isset($errors['release_date'])) : ?>
-					<strong class="error">Is required</strong>
-					<?php endif; ?>
-				</label>
-				<input id="release_date" name="release_date" required value="<?php echo $release_date; ?>">
-			</div>
-			
-			<div>
-				<label for="director">
-					Director:
-					<?php if (isset($errors['director'])) : ?>
-					<strong class="error">Is required</strong>
-					<?php endif; ?>
-				</label>
-				<input id="director" name="director" required value="<?php echo $director; ?>">
-			</div>
-			
-			<button type="submit">Add</button>
+			<p><a href="index.php">Back to list</a></p>
 	</body>
 </html>

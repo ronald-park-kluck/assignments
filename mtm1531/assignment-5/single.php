@@ -38,7 +38,6 @@ $results = $sql->fetch();
 			<a href="delete.php?id=<?php echo $id;?>">Delete this movie</a>
 		</div>
 		
-		
 		<p><a href="index.php">Back to list</a></p>
 	</body>
 </html>
