@@ -28,7 +28,7 @@ function user_create ($db, $username, $password) {
 
 function user_is_signed_in () {
 	if (!isset($_SESSION['user-id'])
-		|| empty($_SESSION['user_id'])
+		|| empty($_SESSION['user-id'])
 		|| !isset($_SESSION['fingerprint'])
 		|| $_SESSION['fingerprint'] != get_fingerprint($_SESSION['user-id'])
 	) {
