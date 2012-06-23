@@ -1,0 +1,1 @@
+<div class="tab-content" id="tab-1">Jupiter is the fifth planet from the Sun and the largest planet within the Solar System. It is a gas giant with mass one-thousandth that of the Sun but is two and a half times the mass of all the other planets in our Solar System combined. Jupiter is classified as a gas giant along with Saturn, Uranus and Neptune.</div>
