@@ -1,0 +1,1 @@
+<div class="tab-content" id="tab-1">Earth (or the Earth) is the third planet from the Sun, and the densest and fifth-largest of the eight planets in the Solar System. It is also the largest of the Solar System's four terrestrial planets. It is sometimes referred to as the world, the Blue Planet, or by its Latin name, Terra.</div>

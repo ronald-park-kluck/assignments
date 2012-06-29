@@ -1,0 +1,52 @@
+html {
+	margin: 0;
+	padding: 0;
+	background-color: #06F;
+	background: url("../images/universe.png") no-repeat center center;
+	color: #00C;
+	font: normal 100%/1.375 sans-serif;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	width: 25em;
+}
+
+.tab-btn {
+	margin: 2em 0 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.tab-btn > li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+.tab-btn a {
+	display: inline-block;
+	margin: 0;
+	padding: 0.6em 0.8em;
+	background-color: #666;
+	border-radius: 4px 4px 0 0;
+	color: #039;
+	text-decoration: none;
+}
+
+.current-tab a {
+	background-color: #fff;
+}
+
+.text-field {
+	padding: 0.8em;
+	position: relative;
+	min-height: 10em;
+	background-color: #fff;
+	border-radius: 0 4px 4px 4px;
+}
+
+
+
+

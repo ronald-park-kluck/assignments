@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	background-color: #0C6;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+body {
+	margin: 0 auto;
+	padding: 1em;
+	width: 30em;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a,
+nav a:link,
+nav a:visited {
+	display: inline-block;
+	border-radius: 4px 4px 0 0;
+	background-color: #e2e2e2;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	color: #000;
+}
+
+nav .current a,
+nav .current a:link,
+nav .current a:visited {
+	background-color: #FFF;
+}
+
+article {
+	background-color: #FFF;
+	padding: 1em;
+	border-radius: 0 10px 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
